@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+/* styles.css */
+body {
+    background-color: rgb(204, 204, 204);
+    font-family: sans-serif;
+    margin: 20px; /* Add some margin to the body */
+}
+
+ul {
+    padding: 0; /* Remove default padding from ul */
+}
+
+li {
+    list-style-type: none; /* Remove list item markers */
+    margin-bottom: 5px;  /* Add spacing between list items */
+}
+
+
+.player_one, .player_two { /* Style for both player containers */
+    margin-bottom: 20px; /* Add space below the players */
+}
